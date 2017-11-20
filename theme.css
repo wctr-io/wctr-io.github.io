@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #1F2022;
-    color: #FCFFFE;
+    background-color: #151617;
+    color: #E8FEF8;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -14,17 +14,26 @@ html, body {
 }
 
 .gray {
-    color: #2E3033;
+    color: #434445;
+    transition: color 1s ease-in;
 }
 
-.whit {
-    color: #FCFFFE;
+.white {
+    color: #E8FEF8;
+    transition: color 1s ease-in;
 }
 
 .orange {
-    color: #F5B31B;
+    color: #F5BB1B;
+    transition: color 1s ease-in;
 }
 
 .green {
     color: #1BF5BB;
+    transition: color 1s ease-in;
+}
+
+.gray:hover, .white:hover, .orange:hover, .green:hover  {
+    color: #151617;
+    transition: color 250ms ease-in;
 }
