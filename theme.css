@@ -2,8 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #1F2022;
-    color: #fcfffe;
-    color: #1af4ba;
+    color: #FCFFFE;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -12,4 +11,20 @@ html, body {
     width: 100%;
     font-family: 'Lato', sans-serif;
     font-size: 10vw;
+}
+
+.gray {
+    color: #2E3033;
+}
+
+.whit {
+    color: #FCFFFE;
+}
+
+.orange {
+    color: #F5B31B;
+}
+
+.green {
+    color: #1BF5BB;
 }
