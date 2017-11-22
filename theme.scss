@@ -1,14 +1,14 @@
-$darkgray: #151617;
-$lightgray: #434445;
-$white: #E8FEF8;
-$orange: #F5BB1B;
-$green: #1BF5BB;
+$colorDarkgray:  #151617;
+$colorLightgray: #434445;
+$colorWhite:     #E8FEF8;
+$colorOrange:    #F5BB1B;
+$colorGreen:     #1BF5BB;
 
 html, body {
     margin: 0;
     padding: 0;
-    background-color: $darkgray;
-    color: $white;
+    background-color: $colorDarkgray;
+    color: $colorWhite;
     text-align: center;
     display: flex;
     justify-content: center;
