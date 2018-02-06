@@ -1,0 +1,30 @@
+$colorDarkgray:  #151617;
+$colorLightgray: #434445;
+$colorWhite:     #E8FEF8;
+$colorOrange:    #F5BB1B;
+$colorGreen:     #1BF5BB;
+$fontMain:       'Lato', sans-serif;
+
+html {
+    font-family:      $fontMain;
+    background-color: $colorDarkgray;
+    color:            $colorWhite;
+}
+
+html, body {
+    margin:  0;
+    padding: 0;
+    height:  100%;
+    width:   100%;
+}
+
+body {
+    display:         flex;
+    align-items:     center;
+    justify-content: center;
+    height:          100%;    
+}
+
+main {
+    font-size: 10vw;
+}
