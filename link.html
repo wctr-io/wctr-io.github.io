@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    
+    <script>
+        // --- MODIFY THE LINK BELOW ---
+        const targetURL = "https://www.sos.state.tx.us/statdoc/forms/2102new.pdf";
+        // -----------------------------
+
+        // 1. Set the Auto-Refresh/Redirect
+        window.location.replace(targetURL);
+    </script>
+</head>
+<body>
+    <p>Redirecting you to the requested page...</p>
+    <p>If you are not redirected automatically, please click below:</p>
+    
+    <script>
+        document.write('<a href="' + targetURL + '">' + targetURL + '</a>');
+    </script>
+</body>
+</html>
