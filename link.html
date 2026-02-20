@@ -1,24 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+<html data-url="https://www.sos.state.tx.us/statdoc/forms/2102new.pdf">
 <head>
     <meta charset="UTF-8">
     <title>Redirecting...</title>
-    
     <script>
-        // --- MODIFY THE LINK BELOW ---
-        const targetURL = "https://www.sos.state.tx.us/statdoc/forms/2102new.pdf";
-        // -----------------------------
-
-        // 1. Set the Auto-Refresh/Redirect
-        window.location.replace(targetURL);
+        // This grabs the URL from the very top of the file automatically
+        const target = document.documentElement.getAttribute('data-url');
+        window.location.replace(target);
     </script>
 </head>
-<body>
-    <p>Redirecting you to the requested page...</p>
-    <p>If you are not redirected automatically, please click below:</p>
+<body style="font-family: sans-serif; padding: 20px;">
+    <p>Redirecting you...</p>
+    <p>If it doesn't load, click here:</p>
     
     <script>
-        document.write('<a href="' + targetURL + '">' + targetURL + '</a>');
+        // This writes the clickable link using that same top-level URL
+        document.write('<a href="' + target + '" style="word-break: break-all;">' + target + '</a>');
     </script>
 </body>
 </html>
